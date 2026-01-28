@@ -91,7 +91,7 @@ yolo detect train model=yolov8n.pt data=BanglaRickshawSet.v2i.yolov8/data.yaml e
 
 **Scenario**: Busy street with multiple rickshaws  
 **Rickshaws Detected**: **13 rickshaws**  
-**Confidence Threshold**: 0.5  
+**Confidence Threshold**: 0.25 (25%)  
 **Result**: ✅ **All rickshaws detected with high accuracy**
 
 ![Multiple Rickshaws Detection (13 Detected)](https://drive.google.com/uc?id=1KnUmmX5vKIP7jTs8WWaRedQaj_Gzo_Ya)
