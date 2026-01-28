@@ -5,7 +5,6 @@
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Latest-red?logo=yolo&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-green?logo=streamlit&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue)
 
 ---
 
@@ -629,17 +628,6 @@ By studying this project, you'll understand:
 | **Train Model** | `yolo detect train model=yolov8n.pt data=dataset/data.yaml epochs=50` |
 | **Test Model** | `yolo detect predict model=best.pt source=dataset/test/images` |
 | **Export Model** | `yolo export model=best.pt format=onnx` |
-
----
-
-
-## 📄 License & Attribution
-
-This project uses:
-- **YOLOv8** - Ultralytics (open-source)
-- **Streamlit** - Streamlit Inc. (open-source)
-- **OpenCV** - Intel Corp. (open-source)
-- **PyTorch** - Meta AI Research (open-source)
 
 ---
 
